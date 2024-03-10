@@ -2,7 +2,7 @@
 
 <?php
 $ip = $_POST['ip'];
-// insiria seu token
+// seu token
 $access_key = 'SEU_TOKEN_AQUI';
 
 $ch = curl_init('https://apiip.net/api/check?ip='.$ip.'&accessKey='.$access_key.'');
